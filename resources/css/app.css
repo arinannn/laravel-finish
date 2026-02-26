@@ -9,11 +9,32 @@
 
 .red{
     color:  red;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px
 }
 .green{
     color: green;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px
 }
 .blue{
     color: blue;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px
 }
 
