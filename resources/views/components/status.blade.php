@@ -3,12 +3,12 @@
 $classes = match ($type){
     1 => 'blue',
     2 => 'green',
-    3 => 'red'
+    3 => 'red',
 };
 @endphp
 <div>
     <p>
         статус заказа:
-        <span>  {{$attributes->merge(['class'=> $classes])}}>{{$slot}}</span>
+        <span  {{ $attributes->merge(['class' => $classes]) }}>{{ $slot }}</span>
     </p>
 </div>

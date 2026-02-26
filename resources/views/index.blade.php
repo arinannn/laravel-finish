@@ -1,8 +1,22 @@
 <x-main-layout>
    
     <x-slot:title>
-        Это пример
+        Пример
     </x-slot>
-     <p>контент</p>
-     <x-status> Подтверждено</x-status>
+    <p>Контент страницы</p>
+    
+    @for($i=0; $i < 10; $i++)
+        @php
+        $type = rand(1,3)
+        @endphp
+      <x-status :type=$type> 
+        @if($type==1)
+            Новый
+        @elseif($type==2)
+            Подтверждено
+        @else
+            Отклонено
+        @endif
+      </x-status>
+    @endfor
 </x-main-layout>

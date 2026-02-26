@@ -14,7 +14,7 @@
         {{$slot}}
     </main>
     <footer>
-        повал
+        подвал
     </footer>
 </body>
 </html>
